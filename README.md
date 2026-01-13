@@ -22,6 +22,16 @@ This is a demo prototype of the AfriLance escrow payment dApp (built on BNB Chai
 2. Load the contract in Remix at the address above.
 3. Call functions as per the flow (use test ETH from faucets).
 
+## Mainnet Deployment
+- **Chain**: Base Mainnet (Chain ID: 8453)
+- **Contract Address**: 0xBDd50E38e94f25D2254101DB21AB32354D5B8f10
+- **Basescan Link**: https://basescan.org/address/0xBDd50E38e94f25D2254101DB21AB32354D5B8f10 (verified source code)
+- **Test Summary**: 
+  - Deposited 0.0005 ETH (tx: 0x8382a0bc...)
+  - Updated AI match score from oracle address only
+  - simulateAIMatch returned varying 0-100 scores on different inputs
+  - Completed work and released funds successfully
+
 ## Vision
 This demo explores Base for lower fees and Coinbase fiat ramps, targeting African freelancers/artisans. 
 Future: Integrate real off-chain AI (e.g., ML models via Chainlink) for auto-matching in gig marketplace once completed and live.
